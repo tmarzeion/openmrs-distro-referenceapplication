@@ -62,7 +62,7 @@
 		<namephoneticsVersion>1.4</namephoneticsVersion>
 		<dataexchangeVersion>1.1</dataexchangeVersion>
 		<orderentryuiVersion>1.0-SNAPSHOT</orderentryuiVersion>
-		<allergyapiVersion>1.4-testreleaseci-SNAPSHOT</allergyapiVersion>
+		<allergyapiVersion>0.0.3-SNAPSHOT</allergyapiVersion>
 		<allergyuiVersion>1.0-SNAPSHOT</allergyuiVersion>
 	</properties>
 
