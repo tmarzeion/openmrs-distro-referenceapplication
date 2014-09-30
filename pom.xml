@@ -904,6 +904,47 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
+		<plugins>
+			<plugin>
+		        <groupId>org.codehaus.mojo</groupId>
+		        <artifactId>properties-maven-plugin</artifactId>
+		        <version>1.0-alpha-2</version>
+		        <executions>
+		          <execution>
+		            <phase>initialize</phase>
+		            <goals>
+		              <goal>write-project-properties</goal>
+		            </goals>
+		            <configuration>
+		              <outputFile>${project.build.directory}/versions.properties</outputFile>
+		            </configuration>
+		          </execution>
+		        </executions>
+		        <inherited>false</inherited>
+	      	</plugin>
+	      	<plugin>
+		        <groupId>org.codehaus.mojo</groupId>
+		        <artifactId>build-helper-maven-plugin</artifactId>
+		        <version>1.9.1</version>
+		        <executions>
+		          <execution>
+		            <id>add-versions-properties</id>
+		            <goals>
+		              <goal>attach-artifact</goal>
+		            </goals>
+		            <configuration>
+		            	<artifacts>
+			                <artifact>
+			                  <file>${project.build.directory}/versions.properties</file>
+			                  <type>properties</type>
+			                </artifact>
+			            </artifacts>
+		            </configuration>
+		          </execution>
+		        </executions>
+		        <inherited>false</inherited>
+		    </plugin>
+		</plugins>
 		
 		<resources>
 			<resource>
