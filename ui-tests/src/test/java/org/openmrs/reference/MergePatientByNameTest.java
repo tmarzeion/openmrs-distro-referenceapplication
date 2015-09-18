@@ -25,6 +25,9 @@ public class MergePatientByNameTest extends TestBase {
     private String id;
     private String id2;
 
+    public MergePatientByNameTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

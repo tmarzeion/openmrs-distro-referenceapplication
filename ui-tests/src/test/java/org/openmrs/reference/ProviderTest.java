@@ -21,6 +21,10 @@ public class ProviderTest extends TestBase {
     private HomePage homePage;
     private ProviderPage providerPage;
 
+    public ProviderTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() {
         headerPage = new HeaderPage(driver);

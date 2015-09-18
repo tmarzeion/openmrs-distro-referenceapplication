@@ -22,6 +22,9 @@ public class FindPatientByIdAndNameTest extends TestBase {
     private PatientDashboardPage patientDashboardPage;
     private String id;
 
+    public FindPatientByIdAndNameTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

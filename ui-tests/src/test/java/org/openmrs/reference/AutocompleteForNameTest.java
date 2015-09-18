@@ -19,6 +19,9 @@ public class AutocompleteForNameTest extends TestBase {
     private TestPatient patient;
     private RegistrationPage registrationPage;
 
+    public AutocompleteForNameTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

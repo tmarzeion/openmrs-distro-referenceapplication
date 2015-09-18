@@ -24,6 +24,10 @@ public class UnidentifiedPatientKeyboardTest extends TestBase {
     private PatientDashboardPage patientDashboardPage;
     private TestPatient patient;
 
+    public UnidentifiedPatientKeyboardTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() throws Exception {
         headerPage = new HeaderPage(driver);

@@ -12,9 +12,6 @@ import org.openmrs.reference.page.HomePage;
 import org.openmrs.reference.page.PatientDashboardPage;
 import org.openmrs.reference.page.RegistrationPage;
 import org.openmrs.uitestframework.test.TestBase;
-
-
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class RegistrationAppTest extends TestBase {
@@ -23,6 +20,10 @@ public class RegistrationAppTest extends TestBase {
     private HomePage homePage;
 	private PatientDashboardPage patientDashboardPage;
 	private TestPatient patient;
+
+    public RegistrationAppTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {
@@ -48,7 +49,7 @@ public class RegistrationAppTest extends TestBase {
         		patient.country + ", " +
         		patient.postalCode;
 
-        assertTrue(registrationPage.getNameInConfirmationPage().contains(patient.givenName + ", , " + patient.familyName));
+        assertTrue(registrationPage.getNameInConfirmationPage().contains(patient.givenName + ", " + patient.familyName));
         assertTrue(registrationPage.getGenderInConfirmationPage().contains(patient.gender));
         assertTrue(registrationPage.getBirthdateInConfirmationPage().contains(patient.birthDay + ", " + patient.birthMonth + ", " + patient.birthYear));
         assertTrue(registrationPage.getAddressInConfirmationPage().contains(address));

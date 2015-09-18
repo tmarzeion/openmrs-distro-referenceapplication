@@ -16,6 +16,10 @@ public class StartVisitTest extends TestBase {
     private HeaderPage headerPage;
     private TestData.PatientInfo patient;
 
+    public StartVisitTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() throws Exception {
 

@@ -19,6 +19,10 @@ public class MergeVisitsTest extends TestBase {
     private PatientDashboardPage patientDashboardPage;
     private TestData.PatientInfo patient;
 
+    public MergeVisitsTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() {
         patient = createTestPatient();

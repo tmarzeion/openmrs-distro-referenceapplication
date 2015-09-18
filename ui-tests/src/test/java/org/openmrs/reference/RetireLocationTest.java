@@ -17,6 +17,9 @@ public class RetireLocationTest extends TestBase {
     private LocationPage locationPage;
     private SettingPage settingPage;
 
+    public RetireLocationTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

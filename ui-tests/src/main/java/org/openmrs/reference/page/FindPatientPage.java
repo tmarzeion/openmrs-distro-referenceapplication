@@ -54,11 +54,11 @@ public class FindPatientPage extends AbstractBasePage {
     /**
      * waits for results appear in a table
      */
-    public void waitForResultTable() {
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        //wait for table to be cleared from previous results
-        wait.until(ExpectedConditions.visibilityOf(findElement(By.cssSelector(DATA_TABLES_EMPTY))));
-        //wait for the first row of the table
-        wait.until(ExpectedConditions.visibilityOf(findElement(PATIENT_NAME_SEARCH_RESULT)));
-    }
+//    public void waitForResultTable() {
+//        WebDriverWait wait = new WebDriverWait(driver, 5);
+//        //wait for table to be cleared from previous results
+//        wait.until(ExpectedConditions.visibilityOf(findElement(By.cssSelector(DATA_TABLES_EMPTY))));
+//        //wait for the first row of the table
+//        wait.until(ExpectedConditions.visibilityOf(findElement(PATIENT_NAME_SEARCH_RESULT)));
+//    }
 }

@@ -30,6 +30,10 @@ public class VisitNoteTest extends TestBase {
     private PatientDashboardPage patientDashboardPage;
     private PatientInfo patient;
 
+    public VisitNoteTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void before() {
         headerPage = new HeaderPage(driver);

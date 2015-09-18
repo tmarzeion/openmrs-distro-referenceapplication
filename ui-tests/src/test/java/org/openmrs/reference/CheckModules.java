@@ -16,6 +16,10 @@ public class CheckModules extends TestBase {
     private HomePage homePage;
     private ModulesPage modulesPage;
 
+    public CheckModules(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() {
         login();

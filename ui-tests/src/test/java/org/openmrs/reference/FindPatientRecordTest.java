@@ -25,6 +25,10 @@ public class FindPatientRecordTest extends TestBase {
     private FindPatientPage findPatientPage;
     private TestData.PatientInfo patient;
 
+    public FindPatientRecordTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void before() {
         homePage = new HomePage(driver);
@@ -50,7 +54,7 @@ public class FindPatientRecordTest extends TestBase {
         //navigate "find patient record" page
         homePage.clickOnFindPatientRecord();
         findPatientPage.enterPatient(idToSearch);
-        findPatientPage.waitForResultTable();
+//        findPatientPage.waitForResultTable();
         assertThat(findPatientPage.findFirstPatientId(), containsString(idToSearch));
     }
 }

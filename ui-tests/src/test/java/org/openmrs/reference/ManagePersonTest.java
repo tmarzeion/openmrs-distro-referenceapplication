@@ -21,6 +21,10 @@ public class ManagePersonTest extends TestBase {
     private boolean acceptNextAlert = true;
     private SettingPage settingPage;
 
+    public ManagePersonTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() {
         headerPage = new HeaderPage(driver);

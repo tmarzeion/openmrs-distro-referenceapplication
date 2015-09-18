@@ -22,6 +22,10 @@ public class AddPatientAppointmentTest extends TestBase {
     private HomePage homePage;
     private PatientDashboardPage patientDashboardPage;
 
+    public AddPatientAppointmentTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() throws Exception {
         loginPage.loginAsAdmin();

@@ -23,6 +23,9 @@ public class ActiveVisitsSearchPatientTest extends TestBase {
     private HeaderPage headerPage;
     private ActiveVisitsPage activeVisitsPage;
 
+    public ActiveVisitsSearchPatientTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

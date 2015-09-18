@@ -21,6 +21,10 @@ public class RelationTypeTest extends TestBase {
     private SettingPage settingPage;
     private boolean acceptNextAlert = true;
 
+    public RelationTypeTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() {
         headerPage = new HeaderPage(driver);

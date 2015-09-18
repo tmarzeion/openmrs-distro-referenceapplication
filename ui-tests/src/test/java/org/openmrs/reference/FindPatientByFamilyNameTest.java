@@ -20,6 +20,9 @@ public class FindPatientByFamilyNameTest extends TestBase {
     private HeaderPage headerPage;
     private FindPatientPage findPatientPage;
 
+    public FindPatientByFamilyNameTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

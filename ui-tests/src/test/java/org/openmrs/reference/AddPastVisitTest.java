@@ -22,6 +22,9 @@ public class AddPastVisitTest extends TestBase {
     private PatientDashboardPage patientDashboardPage;
     private HeaderPage headerPage;
 
+    public AddPastVisitTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

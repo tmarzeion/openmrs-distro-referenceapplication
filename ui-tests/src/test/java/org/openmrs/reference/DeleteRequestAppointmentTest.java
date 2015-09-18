@@ -28,6 +28,10 @@ public class DeleteRequestAppointmentTest extends TestBase {
     private FindPatientPage findPatientPage;
     private String id;
 
+    public DeleteRequestAppointmentTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() throws Exception {
         loginPage.loginAsAdmin();

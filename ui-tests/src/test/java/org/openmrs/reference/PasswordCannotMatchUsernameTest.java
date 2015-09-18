@@ -17,6 +17,9 @@ public class PasswordCannotMatchUsernameTest extends TestBase {
     private AdministrationPage administrationPage;
     private ManageUserPage manageUserPage;
 
+    public PasswordCannotMatchUsernameTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

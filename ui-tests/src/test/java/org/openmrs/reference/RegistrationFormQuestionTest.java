@@ -26,6 +26,10 @@ public class RegistrationFormQuestionTest extends TestBase {
     private HomePage homePage;
     private TestPatient patient;
 
+    public RegistrationFormQuestionTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() throws AWTException {
         headerPage = new HeaderPage(driver);

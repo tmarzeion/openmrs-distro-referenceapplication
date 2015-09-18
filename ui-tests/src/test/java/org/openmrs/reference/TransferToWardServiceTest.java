@@ -17,7 +17,9 @@ public class TransferToWardServiceTest extends TestBase {
     private PatientDashboardPage patientDashboardPage;
     private HeaderPage headerPage;
 
-
+    public TransferToWardServiceTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

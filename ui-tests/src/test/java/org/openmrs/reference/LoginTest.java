@@ -17,6 +17,10 @@ public class LoginTest extends TestBase {
     private HeaderPage headerPage;
     private HomePage homePage;
 
+    public LoginTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() {
         headerPage = new HeaderPage(driver);

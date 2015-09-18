@@ -26,6 +26,9 @@ public class RecordMergeIssueTest extends TestBase {
     private String id;
     private String id2;
 
+    public RecordMergeIssueTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

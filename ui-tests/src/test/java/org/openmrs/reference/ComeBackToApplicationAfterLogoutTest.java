@@ -17,6 +17,9 @@ public class ComeBackToApplicationAfterLogoutTest extends TestBase {
     private HomePage homePage;
     private HeaderPage headerPage;
 
+    public ComeBackToApplicationAfterLogoutTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws Exception {

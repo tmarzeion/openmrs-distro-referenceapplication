@@ -15,7 +15,11 @@ public class VisitTest extends TestBase {
     private HeaderPage headerPage;
 	private PatientDashboardPage patientDashboardPage;
 	private PatientInfo patient;
-	
+
+	public VisitTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+		super(os, version, browser, deviceName, deviceOrientation);
+	}
+
 	@Before
 	public void before() {
         headerPage = new HeaderPage(driver);

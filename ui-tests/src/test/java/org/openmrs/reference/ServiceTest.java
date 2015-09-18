@@ -27,6 +27,10 @@ public class ServiceTest extends TestBase {
     private PatientDashboardPage patientDashboardPage;
     private String[] editedValues = null;
 
+    public ServiceTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void before() {
         headerPage = new HeaderPage(driver);

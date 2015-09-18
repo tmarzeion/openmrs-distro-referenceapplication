@@ -22,6 +22,10 @@ public class EditFormTest extends TestBase {
     private ManageFormsPage manageForm;
     private PatientDashboardPage patientDashboardPage;
 
+    public EditFormTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() throws Exception {
         loginPage.loginAsAdmin();

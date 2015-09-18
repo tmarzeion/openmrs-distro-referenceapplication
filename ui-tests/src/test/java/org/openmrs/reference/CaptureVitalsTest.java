@@ -15,6 +15,8 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import org.openmrs.uitestframework.test.TestData.PatientInfo;
 
+import java.util.LinkedList;
+
 
 /**
  * Created by tomasz on 25.05.15.
@@ -27,6 +29,10 @@ public class CaptureVitalsTest  extends TestBase {
     private PatientDashboardPage patientDashboardPage;
     private PatientCaptureVitalsPage patientCaptureVitalsPage;
     private PatientInfo patient;
+
+    public CaptureVitalsTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
 
     @Before
     public void setUp() throws InterruptedException {
@@ -41,6 +47,8 @@ public class CaptureVitalsTest  extends TestBase {
 
     }
 
+
+
     private void registerAPatient() throws InterruptedException{
         homePage.openRegisterAPatientApp();
         patient = createTestPatient();
@@ -51,7 +59,7 @@ public class CaptureVitalsTest  extends TestBase {
     public void tearDown() throws Exception {
         headerPage.clickOnHomeIcon();
         deletePatient(patient.uuid);
-        //waitForPatientDeletion(patient.uuid);
+        //waitForPatientDeletion(patient.uuid);a
         headerPage.logOut();
     }
 

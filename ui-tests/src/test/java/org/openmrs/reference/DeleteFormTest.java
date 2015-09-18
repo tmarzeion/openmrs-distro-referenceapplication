@@ -21,6 +21,10 @@ public class DeleteFormTest extends TestBase {
     private HeaderPage headerPage;
     private ManageFormsPage manageForm;
 
+    public DeleteFormTest(String os, String version, String browser, String deviceName, String deviceOrientation) {
+        super(os, version, browser, deviceName, deviceOrientation);
+    }
+
     @Before
     public void setUp() throws Exception {
         loginPage.loginAsAdmin();
