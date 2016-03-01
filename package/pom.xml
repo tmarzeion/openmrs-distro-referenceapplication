@@ -123,6 +123,11 @@
 									<artifactId>reporting-omod</artifactId>
 									<destFileName>reporting-${reportingVersion}.omod</destFileName>
 								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
+									<artifactId>reportingcompatibility-omod</artifactId>
+									<destFileName>reporting-${reportingcompatibilityVersion}.omod</destFileName>
+								</artifactItem>
                                 <artifactItem>
                                     <groupId>org.openmrs.module</groupId>
                                     <artifactId>metadatadeploy-omod</artifactId>
@@ -168,6 +173,11 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>org.openmrs.module</groupId>
+									<artifactId>legacyui-omod</artifactId>
+									<destFileName>legacyui-${legacyuiVersion}.omod</destFileName>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
 									<artifactId>appui-omod</artifactId>
 									<destFileName>appui-${appuiVersion}.omod</destFileName>
 								</artifactItem>
@@ -201,11 +211,6 @@
 									<groupId>org.openmrs.module</groupId>
 									<artifactId>dataexchange-omod</artifactId>
 									<destFileName>dataexchange-${dataexchangeVersion}.omod</destFileName>
-								</artifactItem>
-								<artifactItem>
-									<groupId>org.openmrs.module</groupId>
-									<artifactId>allergyapi-omod</artifactId>
-									<destFileName>allergyapi-${allergyapiVersion}.omod</destFileName>
 								</artifactItem>
 								<artifactItem>
 									<groupId>org.openmrs.module</groupId>
