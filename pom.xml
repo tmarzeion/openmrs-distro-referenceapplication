@@ -45,7 +45,7 @@
 		<uilibraryVersion>2.0.5-SNAPSHOT</uilibraryVersion>
 		<calculationVersion>1.2-SNAPSHOT</calculationVersion>
 		<serialization.xstreamVersion>0.2.10-SNAPSHOT</serialization.xstreamVersion>
-		<htmlwidgetsVersion>1.7.1-SNAPSHOT</htmlwidgetsVersion>
+		<htmlwidgetsVersion>1.7.2-SNAPSHOT</htmlwidgetsVersion>
 		<reportingVersion>0.9.9-SNAPSHOT</reportingVersion>
 		<reportingRestVersion>1.6-SNAPSHOT</reportingRestVersion>
 		<reportingcompatibilityVersion>1.5.9-SNAPSHOT</reportingcompatibilityVersion>
