@@ -44,7 +44,7 @@
 		<providermanagementVersion>2.5-SNAPSHOT</providermanagementVersion>
 		<uilibraryVersion>2.0.5-SNAPSHOT</uilibraryVersion>
 		<calculationVersion>1.2-SNAPSHOT</calculationVersion>
-		<serialization.xstreamVersion>0.2.10-SNAPSHOT</serialization.xstreamVersion>
+		<serialization.xstreamVersion>0.2.11</serialization.xstreamVersion>
 		<htmlwidgetsVersion>1.7.2-SNAPSHOT</htmlwidgetsVersion>
 		<reportingVersion>0.9.9-SNAPSHOT</reportingVersion>
 		<reportingRestVersion>1.6-SNAPSHOT</reportingRestVersion>
