@@ -52,7 +52,7 @@
 		<metadatadeployVersion>1.7</metadatadeployVersion>
 		<metadatasharingVersion>1.2-SNAPSHOT</metadatasharingVersion>
 		<metadatamappingVersion>1.1.0-SNAPSHOT</metadatamappingVersion>
-		<uicommonsVersion>1.8-SNAPSHOT</uicommonsVersion>
+		<uicommonsVersion>1.9-SNAPSHOT</uicommonsVersion>
 		<appuiVersion>1.6-SNAPSHOT</appuiVersion>
 		<htmlformentryVersion>3.2-SNAPSHOT</htmlformentryVersion>
 		<htmlformentry19extVersion>1.8-SNAPSHOT</htmlformentry19extVersion>
