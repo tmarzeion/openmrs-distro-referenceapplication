@@ -126,7 +126,7 @@
 								<artifactItem>
 									<groupId>org.openmrs.module</groupId>
 									<artifactId>reportingcompatibility-omod</artifactId>
-									<destFileName>reporting-${reportingcompatibilityVersion}.omod</destFileName>
+									<destFileName>reportingcompatibility-${reportingcompatibilityVersion}.omod</destFileName>
 								</artifactItem>
                                 <artifactItem>
                                     <groupId>org.openmrs.module</groupId>
