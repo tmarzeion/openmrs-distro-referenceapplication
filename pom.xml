@@ -71,6 +71,8 @@
 		<namephoneticsVersion>1.6-SNAPSHOT</namephoneticsVersion> <!-- The omod for namephonetics is not included in the distro, but we keep the version around since it's a semi-supported add-on -->
 		<adminuiVersion>1.1-SNAPSHOT</adminuiVersion>
 		<uitestframeworkVersion>1.7-SNAPSHOT</uitestframeworkVersion>
+		<xformsVersion>4.3.8-SNAPSHOT</xformsVersion>
+		<xreportsVersion>1.1</xreportsVersion>
 	</properties>
 
 	<dependencyManagement>
@@ -913,6 +915,18 @@
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>adminui-omod</artifactId>
 				<version>${adminuiVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>xforms-omod</artifactId>
+				<version>${xformsVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>xreports-omod</artifactId>
+				<version>${xreportsVersion}</version>
 				<scope>provided</scope>
 			</dependency>
 		</dependencies>
