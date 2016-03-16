@@ -35,10 +35,10 @@
 		<logicVersion>0.5.2</logicVersion>
 		<appframeworkVersion>2.9-SNAPSHOT</appframeworkVersion>
 		<uiframeworkVersion>3.7-SNAPSHOT</uiframeworkVersion>
-		<registrationcoreVersion>1.4-SNAPSHOT</registrationcoreVersion>
-		<registrationappVersion>1.5-SNAPSHOT</registrationappVersion>
+		<registrationcoreVersion>1.5-SNAPSHOT</registrationcoreVersion>
+		<registrationappVersion>1.6-SNAPSHOT</registrationappVersion>
 		<eventVersion>2.4-SNAPSHOT</eventVersion>
-		<idgenVersion>4.3-SNAPSHOT</idgenVersion>
+		<idgenVersion>4.4-SNAPSHOT</idgenVersion>
 		<emrapiVersion>1.14-SNAPSHOT</emrapiVersion>
 		<referenceapplicationVersion>2.4-SNAPSHOT</referenceapplicationVersion>
 		<providermanagementVersion>2.5-SNAPSHOT</providermanagementVersion>
