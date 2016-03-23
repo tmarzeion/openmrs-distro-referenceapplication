@@ -50,7 +50,7 @@
 		<reportingRestVersion>1.6-SNAPSHOT</reportingRestVersion>
 		<reportingcompatibilityVersion>1.5.9-SNAPSHOT</reportingcompatibilityVersion>
 		<metadatadeployVersion>1.7</metadatadeployVersion>
-		<metadatasharingVersion>1.2-SNAPSHOT</metadatasharingVersion>
+		<metadatasharingVersion>1.2.1-SNAPSHOT</metadatasharingVersion>
 		<metadatamappingVersion>1.1.0-SNAPSHOT</metadatamappingVersion>
 		<uicommonsVersion>1.9-SNAPSHOT</uicommonsVersion>
 		<appuiVersion>1.6-SNAPSHOT</appuiVersion>
