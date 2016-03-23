@@ -245,6 +245,11 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>org.openmrs.module</groupId>
+									<artifactId>fhir-omod</artifactId>
+									<destFileName>fhir-${fhirVersion}.omod</destFileName>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
 									<artifactId>xforms-omod</artifactId>
 									<destFileName>xforms-${xformsVersion}.omod</destFileName>
 								</artifactItem>
