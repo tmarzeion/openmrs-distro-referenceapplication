@@ -30,7 +30,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<openMRSVersion>2.0.0-SNAPSHOT</openMRSVersion>
+		<openMRSVersion>2.0.0-beta</openMRSVersion>
 		<referencemetadataVersion>2.4-SNAPSHOT</referencemetadataVersion>
 		<logicVersion>0.5.2</logicVersion>
 		<appframeworkVersion>2.9-SNAPSHOT</appframeworkVersion>
@@ -46,32 +46,32 @@
 		<calculationVersion>1.2-SNAPSHOT</calculationVersion>
 		<serialization.xstreamVersion>0.2.11</serialization.xstreamVersion>
 		<htmlwidgetsVersion>1.7.2-SNAPSHOT</htmlwidgetsVersion>
-		<reportingVersion>0.9.9-SNAPSHOT</reportingVersion>
-		<reportingRestVersion>1.6-SNAPSHOT</reportingRestVersion>
+		<reportingVersion>0.9.10-SNAPSHOT</reportingVersion>
+		<reportingRestVersion>1.7-SNAPSHOT</reportingRestVersion>
 		<reportingcompatibilityVersion>1.5.9-SNAPSHOT</reportingcompatibilityVersion>
-		<metadatadeployVersion>1.7</metadatadeployVersion>
+		<metadatadeployVersion>1.8-SNAPSHOT</metadatadeployVersion>
 		<metadatasharingVersion>1.2.1-SNAPSHOT</metadatasharingVersion>
-		<metadatamappingVersion>1.1.0-SNAPSHOT</metadatamappingVersion>
+		<metadatamappingVersion>1.1.0-alpha2-SNAPSHOT</metadatamappingVersion>
 		<uicommonsVersion>1.9-SNAPSHOT</uicommonsVersion>
 		<appuiVersion>1.6-SNAPSHOT</appuiVersion>
-		<htmlformentryVersion>3.2-SNAPSHOT</htmlformentryVersion>
+		<htmlformentryVersion>3.3-SNAPSHOT</htmlformentryVersion>
 		<htmlformentry19extVersion>1.8-SNAPSHOT</htmlformentry19extVersion>
 		<htmlformentryuiVersion>1.6-SNAPSHOT</htmlformentryuiVersion>
 		<legacyuiVersion>1.0-SNAPSHOT</legacyuiVersion>
 		<coreappsVersion>1.10-SNAPSHOT</coreappsVersion>
-		<webservices.restVersion>2.14-SNAPSHOT</webservices.restVersion>
+		<webservices.restVersion>2.15-SNAPSHOT</webservices.restVersion>
 		<referencedemodataVersion>1.4.2-SNAPSHOT</referencedemodataVersion>
-		<dataexchangeVersion>1.3.2</dataexchangeVersion>
-		<allergyuiVersion>1.5</allergyuiVersion>
+		<dataexchangeVersion>1.3.3-SNAPSHOT</dataexchangeVersion>
+		<allergyuiVersion>1.6-SNAPSHOT</allergyuiVersion>
 		<formentryappVersion>1.3-SNAPSHOT</formentryappVersion>
 		<atlasVersion>2.3-SNAPSHOT</atlasVersion>
-		<chartsearchVersion>1.6-SNAPSHOT</chartsearchVersion>
-		<appointmentschedulingVersion>1.5</appointmentschedulingVersion>
-		<appointmentschedulinguiVersion>1.3-SNAPSHOT</appointmentschedulinguiVersion>
+		<chartsearchVersion>1.7-SNAPSHOT</chartsearchVersion>
+		<appointmentschedulingVersion>1.6-SNAPSHOT</appointmentschedulingVersion>
+		<appointmentschedulinguiVersion>1.4-SNAPSHOT</appointmentschedulinguiVersion>
 		<namephoneticsVersion>1.6-SNAPSHOT</namephoneticsVersion> <!-- The omod for namephonetics is not included in the distro, but we keep the version around since it's a semi-supported add-on -->
 		<adminuiVersion>1.1-SNAPSHOT</adminuiVersion>
-		<uitestframeworkVersion>1.7-SNAPSHOT</uitestframeworkVersion>
-		<fhirVersion>1.1-SNAPSHOT</fhirVersion>
+		<uitestframeworkVersion>1.8-SNAPSHOT</uitestframeworkVersion>
+		<fhirVersion>1.5-SNAPSHOT</fhirVersion>
 		<xformsVersion>4.3.8-SNAPSHOT</xformsVersion>
 		<xreportsVersion>1.3</xreportsVersion>
 	</properties>
