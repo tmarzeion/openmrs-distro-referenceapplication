@@ -57,7 +57,7 @@
 		<htmlformentryVersion>3.3-SNAPSHOT</htmlformentryVersion>
 		<htmlformentry19extVersion>1.8-SNAPSHOT</htmlformentry19extVersion>
 		<htmlformentryuiVersion>1.6-SNAPSHOT</htmlformentryuiVersion>
-		<legacyuiVersion>1.0-SNAPSHOT</legacyuiVersion>
+		<legacyuiVersion>0.2</legacyuiVersion>
 		<coreappsVersion>1.10-SNAPSHOT</coreappsVersion>
 		<webservices.restVersion>2.15-SNAPSHOT</webservices.restVersion>
 		<referencedemodataVersion>1.4.2-SNAPSHOT</referencedemodataVersion>
