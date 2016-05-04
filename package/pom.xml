@@ -250,6 +250,11 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>org.openmrs.module</groupId>
+									<artifactId>addresshierarchy-omod</artifactId>
+									<destFileName>addresshierarchy-${addresshierarchyVersion}.omod</destFileName>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
 									<artifactId>fhir-omod</artifactId>
 									<destFileName>fhir-${fhirVersion}.omod</destFileName>
 								</artifactItem>
