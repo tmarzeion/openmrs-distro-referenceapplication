@@ -48,7 +48,7 @@
 		<htmlwidgetsVersion>1.7.2-SNAPSHOT</htmlwidgetsVersion>
 		<reportingVersion>0.9.10-SNAPSHOT</reportingVersion>
 		<reportingRestVersion>1.7-SNAPSHOT</reportingRestVersion>
-		<reportingcompatibilityVersion>1.5.9-SNAPSHOT</reportingcompatibilityVersion>
+		<reportingcompatibilityVersion>2.0.0-SNAPSHOT</reportingcompatibilityVersion>
 		<metadatadeployVersion>1.8-SNAPSHOT</metadatadeployVersion>
 		<metadatasharingVersion>1.2.1-SNAPSHOT</metadatasharingVersion>
 		<metadatamappingVersion>1.1.0-alpha2-SNAPSHOT</metadatamappingVersion>
