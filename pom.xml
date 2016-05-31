@@ -37,7 +37,7 @@
 		<uiframeworkVersion>3.7-SNAPSHOT</uiframeworkVersion>
 		<registrationcoreVersion>1.5-SNAPSHOT</registrationcoreVersion>
 		<registrationappVersion>1.6-SNAPSHOT</registrationappVersion>
-		<eventVersion>2.4-SNAPSHOT</eventVersion>
+		<eventVersion>2.5-SNAPSHOT</eventVersion>
 		<idgenVersion>4.4-SNAPSHOT</idgenVersion>
 		<emrapiVersion>1.14-SNAPSHOT</emrapiVersion>
 		<referenceapplicationVersion>2.4-SNAPSHOT</referenceapplicationVersion>
