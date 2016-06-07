@@ -73,6 +73,7 @@
 		<uitestframeworkVersion>1.8-SNAPSHOT</uitestframeworkVersion>
 		<addresshierarchyVersion>2.9-SNAPSHOT</addresshierarchyVersion>
 		<fhirVersion>1.5-SNAPSHOT</fhirVersion>
+		<owaVersion>1.5-SNAPSHOT</owaVersion>
 		<xformsVersion>4.3.9-SNAPSHOT</xformsVersion>
 		<xreportsVersion>1.4</xreportsVersion>
 	</properties>
@@ -929,6 +930,12 @@
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>fhir-omod</artifactId>
 				<version>${fhirVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>owa-omod</artifactId>
+				<version>${owaVersion}</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
