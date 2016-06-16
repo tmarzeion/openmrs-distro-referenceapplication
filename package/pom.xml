@@ -123,6 +123,11 @@
 									<artifactId>reporting-omod</artifactId>
 									<destFileName>reporting-${reportingVersion}.omod</destFileName>
 								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
+									<artifactId>reportingcompatibility-omod</artifactId>
+									<destFileName>reportingcompatibility-${reportingcompatibilityVersion}.omod</destFileName>
+								</artifactItem>
                                 <artifactItem>
                                     <groupId>org.openmrs.module</groupId>
                                     <artifactId>metadatadeploy-omod</artifactId>
@@ -168,6 +173,11 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>org.openmrs.module</groupId>
+									<artifactId>legacyui-omod</artifactId>
+									<destFileName>legacyui-${legacyuiVersion}.omod</destFileName>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
 									<artifactId>appui-omod</artifactId>
 									<destFileName>appui-${appuiVersion}.omod</destFileName>
 								</artifactItem>
@@ -204,11 +214,6 @@
 								</artifactItem>
 								<artifactItem>
 									<groupId>org.openmrs.module</groupId>
-									<artifactId>allergyapi-omod</artifactId>
-									<destFileName>allergyapi-${allergyapiVersion}.omod</destFileName>
-								</artifactItem>
-								<artifactItem>
-									<groupId>org.openmrs.module</groupId>
 									<artifactId>allergyui-omod</artifactId>
 									<destFileName>allergyui-${allergyuiVersion}.omod</destFileName>
 								</artifactItem>
@@ -233,7 +238,8 @@
                                     <artifactId>appointmentschedulingui-omod</artifactId>
                                     <destFileName>appointmentschedulingui-${appointmentschedulinguiVersion}.omod</destFileName>
                                 </artifactItem>
-								<artifactItem>																																																																																																																																																													<groupId>org.openmrs.module</groupId>
+                                <artifactItem>		
+                                	<groupId>org.openmrs.module</groupId>																																																																																																																																																											<groupId>org.openmrs.module</groupId>
 									<artifactId>chartsearch-omod</artifactId>
 									<destFileName>chartsearch-${chartsearchVersion}.omod</destFileName>
 								</artifactItem>
@@ -241,6 +247,31 @@
 									<groupId>org.openmrs.module</groupId>
 									<artifactId>adminui-omod</artifactId>
 									<destFileName>adminui-${adminuiVersion}.omod</destFileName>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
+									<artifactId>addresshierarchy-omod</artifactId>
+									<destFileName>addresshierarchy-${addresshierarchyVersion}.omod</destFileName>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
+									<artifactId>fhir-omod</artifactId>
+									<destFileName>fhir-${fhirVersion}.omod</destFileName>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
+									<artifactId>owa-omod</artifactId>
+									<destFileName>owa-${owaVersion}.omod</destFileName>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
+									<artifactId>xforms-omod</artifactId>
+									<destFileName>xforms-${xformsVersion}.omod</destFileName>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.openmrs.module</groupId>
+									<artifactId>xreports-omod</artifactId>
+									<destFileName>xreports-${xreportsVersion}.omod</destFileName>
 								</artifactItem>
 							</artifactItems>
 							<outputDirectory>${project.build.directory}/distro</outputDirectory>
