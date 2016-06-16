@@ -19,13 +19,6 @@
 		<url>http://openmrs.org</url>
 	</organization>
 
-	<scm>
-		<connection>scm:git:https://github.com/openmrs/openmrs-distro-referenceapplication</connection>
-		<developerConnection>scm:git:https://github.com/openmrs/openmrs-distro-referenceapplication</developerConnection>
-		<url>scm:git:https://github.com/openmrs/openmrs-distro-referenceapplication</url>
-    <tag>2.3.1</tag>
-  </scm>
-
 	<properties>
 		<db.url><![CDATA[jdbc:mysql://localhost:3306/openmrs?autoReconnect=true&sessionVariables=storage_engine=InnoDB&useUnicode=true&characterEncoding=UTF-8]]></db.url>
 		<db.user>root</db.user>
