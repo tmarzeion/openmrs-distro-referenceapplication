@@ -248,13 +248,8 @@
 			</dependency>
 			<dependency>
 				<groupId>org.openmrs.module</groupId>
-<<<<<<< HEAD
-				<artifactId>reporting-api-1.9</artifactId>
-				<version>${reportingVersion}</version>
-=======
 				<artifactId>reportingcompatibility-api</artifactId>
 				<version>${reportingcompatibilityVersion}</version>
->>>>>>> refapp2
 				<scope>provided</scope>
 			</dependency>
             <dependency>
