@@ -71,7 +71,7 @@
 		<namephoneticsVersion>1.6-SNAPSHOT</namephoneticsVersion> <!-- The omod for namephonetics is not included in the distro, but we keep the version around since it's a semi-supported add-on -->
 		<adminuiVersion>1.1-SNAPSHOT</adminuiVersion>
 		<uitestframeworkVersion>1.8-SNAPSHOT</uitestframeworkVersion>
-		<addresshierarchyVersion>2.9-SNAPSHOT</addresshierarchyVersion>
+		<addresshierarchyVersion>2.9</addresshierarchyVersion>
 		<fhirVersion>1.5-SNAPSHOT</fhirVersion>
 		<owaVersion>1.5-SNAPSHOT</owaVersion>
 		<xformsVersion>4.3.9-SNAPSHOT</xformsVersion>
