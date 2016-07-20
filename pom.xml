@@ -46,7 +46,7 @@
 		<calculationVersion>1.2-SNAPSHOT</calculationVersion>
 		<serialization.xstreamVersion>0.2.12-SNAPSHOT</serialization.xstreamVersion>
 		<htmlwidgetsVersion>1.7.3-SNAPSHOT</htmlwidgetsVersion>
-		<reportingVersion>0.10.2-SNAPSHOT</reportingVersion>
+		<reportingVersion>0.10.1</reportingVersion>
 		<reportingRestVersion>1.7-SNAPSHOT</reportingRestVersion>
 		<reportingcompatibilityVersion>2.0.0-SNAPSHOT</reportingcompatibilityVersion>
 		<metadatadeployVersion>1.8-SNAPSHOT</metadatadeployVersion>
