@@ -1,5 +1,6 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
+# ADAM TO PRAWDZIWY DZIK KODOWANIA
 
 Vagrant.configure("2") do |config|
   # All Vagrant configuration is done here. The most common configuration
